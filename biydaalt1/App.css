@@ -1,0 +1,34 @@
+/* Style for the container */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the input field */
+input {
+  width: 250px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus effect for the input field */
+input:focus {
+  border-color: #4A90E2;
+}
+
+/* Style for the displayed text */
+p {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 20px;
+}
